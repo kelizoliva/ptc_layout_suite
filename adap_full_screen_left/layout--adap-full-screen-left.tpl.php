@@ -56,27 +56,13 @@
 
       <?php print $action_links; ?>
       <?php print $content['content']; ?>
+      <?php if ($content['footer']): ?>
+      <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
+        <?php print $content['footer']; ?>
+      </footer>
+      <?php endif; ?>
       </div>
     </div>
   </main>
-
-  <?php if ($content['top']): ?>
-      <div class="l-top col-12" role="region">
-      <?php print $content['top']; ?>
-      </div>
-  <?php endif; ?>
-
-
-  <?php if ($content['bottom']): ?>
-    <div class="l-bottom col-12" role="region">
-        <?php print $content['bottom']; ?>
-    </div>
-  <?php endif; ?>
-
-  <?php if ($content['footer']): ?>
-    <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
-      <?php print $content['footer']; ?>
-    </footer>
-  <?php endif; ?>
 
 </div>

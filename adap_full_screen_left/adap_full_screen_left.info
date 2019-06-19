@@ -9,8 +9,6 @@ backdrop = 1.x
 ; Specify regions for this layout.
 regions[content] = Content
 regions[header] = Header
-regions[top] = Top
-regions[bottom] = Bottom
 regions[footer]  = Footer
 
 ; The default region automatically receives the "Main Content" block if needed.
