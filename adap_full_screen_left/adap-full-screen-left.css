@@ -2390,3 +2390,24 @@ html.admin-bar .layout--adap-full-screen-left main.container {
 .user-login-block ul {
 	list-style: none;
 }
+.layout--adap-full-screen-left .adap-main .crm-container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Menu */
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper ul {
+	list-style: none;
+	padding-left: 0;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper ul li {
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+/* Colors */
+.layout--adap-full-screen-left .l-header {
+  border-right: #d3dee2 solid 1px;
+ }
