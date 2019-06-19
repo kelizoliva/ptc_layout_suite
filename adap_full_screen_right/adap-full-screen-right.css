@@ -2352,9 +2352,7 @@ html.admin-bar .layout--adap-full-screen-right main.container {
 }
 
 .layout--adap-full-screen-right .adap-main {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   overflow: auto;
   height: auto;
   margin: 0 auto !important;

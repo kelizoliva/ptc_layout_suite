@@ -2352,9 +2352,7 @@ html.admin-bar .layout--adap-full-screen-left main.container {
 }
 
 .layout--adap-full-screen-left .adap-main {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   overflow: auto;
   height: auto;
   margin: 0 auto !important;
@@ -2382,4 +2380,13 @@ html.admin-bar .layout--adap-full-screen-left main.container {
     display: block;
     height: auto !important;
   }
+}
+
+/* ADAP */
+
+.user-login-block {
+    transform: perspective(1px) translateY(20%);
+}
+.user-login-block ul {
+	list-style: none;
 }
