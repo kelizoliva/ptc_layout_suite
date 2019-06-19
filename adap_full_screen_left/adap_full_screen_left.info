@@ -1,0 +1,22 @@
+name = ADAP Full Screen Left
+version = BACKDROP_VERSION
+type = layout
+backdrop = 1.x
+
+; Include file for special preprocessing of this layout's variables.
+; file = adap_full_screen_left.php
+
+; Specify regions for this layout.
+regions[content] = Content
+regions[header] = Header
+regions[top] = Top
+regions[bottom] = Bottom
+regions[footer]  = Footer
+
+; The default region automatically receives the "Main Content" block if needed.
+; Modify this line if you would like to change the default in this layout.
+default region = content
+
+project = adap_layouts
+version = 1.x-1.1.0
+timestamp = 1464921071
