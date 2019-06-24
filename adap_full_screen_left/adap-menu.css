@@ -1,0 +1,52 @@
+/* Menu */
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper ul {
+	list-style: none;
+	padding-left: 0;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper {
+	font-size: 14px;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > span {
+	display: block;
+	padding: 15px 30px;
+	border-bottom: 1px solid #E9ECED;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > span::after {
+    content: '\002B';
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    float: right;
+    clear: right;
+    color: #666666;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav.open > span::after {
+    content: '\2212';
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav:first-child > span {
+	border-top: 1px solid #E9ECED;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > .submenu {
+	border-left: solid 5px #4d4d69;
+	background: #E9ECED;
+	display: none;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav.current-parent > .submenu {
+	display: block;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > ul > li a,
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav .nav-parent span {
+	padding: 10px 25px;
+	display: block;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav .nav-parent li a {
+	padding: 10px 40px;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .current a {
+	font-weight: 800;
+}
