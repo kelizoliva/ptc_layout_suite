@@ -48,7 +48,7 @@
 .layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav .nav-parent li a {
 	padding: 10px 40px;
 }
-.layout--adap-full-screen-left .l-header #crm-menu-wrapper .current a {
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .current > a {
 	font-weight: 800;
 	background: #E1E4E5;
 }
