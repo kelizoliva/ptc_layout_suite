@@ -19,9 +19,6 @@
  */
 ?>
 <div class="layout--adap-full-screen-left container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
-  </div>
 
   <main class="l-wrapper container" role="main" aria-label="<?php print t('Main content'); ?>">
     <?php if ($content['header']): ?>

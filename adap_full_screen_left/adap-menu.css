@@ -1,15 +1,18 @@
-/* Menu */
+/* ADAP Menu */
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper {
+	font-size: 14px;
+}
 .layout--adap-full-screen-left .l-header #crm-menu-wrapper ul {
 	list-style: none;
 	padding-left: 0;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper > ul {
+	margin: 0;
 }
 .layout--adap-full-screen-left .l-header #crm-menu-wrapper ul li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-.layout--adap-full-screen-left .l-header #crm-menu-wrapper {
-	font-size: 14px;
 }
 .layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > span {
 	display: block;

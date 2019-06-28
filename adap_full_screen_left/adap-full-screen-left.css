@@ -2316,16 +2316,6 @@ html[dir='ltr'] {
   padding-top: 5px;
 }
 
-.layout--adap-full-screen-left .l-content,
-.layout--adap-full-screen-left .l-statement,
-.layout--adap-full-screen-left .l-secondary,
-.layout--adap-full-screen-left .l-top,
-.layout--adap-full-screen-left .l-bottom,
-.layout--adap-full-screen-left .l-calltoaction,
-.layout--adap-full-screen-left .l-footer {
-  text-align: center;
-}
-
 .layout--adap-full-screen-left .l-statement, .layout--adap-full-screen-left main.container {
   display: -webkit-flex;
   display: -ms-flexbox;

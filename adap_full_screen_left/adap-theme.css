@@ -1,0 +1,7 @@
+/* ADAP Theme: Some light ADAP theming.  If this ever needs to expand further, we will move this to an actual theme repo */
+h1.page-title {
+	background: #f3f6f7;
+	padding: .1em .5em;
+	border-bottom: 1px solid #E9ECED;
+	border-top: 1px solid #E9ECED;
+}
