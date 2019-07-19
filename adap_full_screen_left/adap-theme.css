@@ -5,7 +5,11 @@ h1.page-title {
 	border-bottom: 1px solid #E9ECED;
 	border-top: 1px solid #E9ECED;
 }
-.block-system-user-menu .menu-tree li.leaf {
+.block-system-user-menu .menu-tree li.leaf, 
+.crm-container .crm-button.ui-button, 
+.crm-container .crm-button.ui-button:active, 
+.crm-container .crm-button.ui-button:hover, 
+.crm-container .crm-button.ui-button:focus {
 	background-color: #4d4d69;
 	text-transform: uppercase;
 	font-size: 13px;
@@ -14,6 +18,7 @@ h1.page-title {
 	vertical-align: middle;
 	border-radius: 2px;
 	margin-left: 5px;
+	color: #ffffff;
 }
 .block-block-attributions-block {
 	margin-top: -40px;
