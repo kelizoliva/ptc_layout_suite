@@ -2296,6 +2296,11 @@ html[dir='ltr'] {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
+  background: #f3f6f7;
+}
+
+.layout--adap-full-screen-left .l-header .block-system-user-menu {
+	margin-top: 20px;
 }
 
 .layout--adap-full-screen-left.layout {
