@@ -33,3 +33,16 @@ h1.page-title {
 	text-transform: uppercase;
 	font-size: 9px;
 }
+#crm-container #crm-notification-container {
+	position: relative;
+	z-index: inherit;
+	top: auto;
+	right: auto;
+	width: 100%;	
+}
+#crm-container.crm-container #crm-notification-container div.ui-notify-message-style,
+#crm-container #crm-notification-container div.ui-notify-message-style {
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #E9ECED;
+}
