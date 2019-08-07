@@ -33,16 +33,36 @@ h1.page-title {
 	text-transform: uppercase;
 	font-size: 9px;
 }
-#crm-container #crm-notification-container {
-	position: relative;
-	z-index: inherit;
-	top: auto;
-	right: auto;
-	width: 100%;	
-}
-#crm-container.crm-container #crm-notification-container div.ui-notify-message-style,
-#crm-container #crm-notification-container div.ui-notify-message-style {
+.messages.status, .crm-container :not(.crm-footer) .messages.status {
   background: transparent;
   box-shadow: none;
-  border: 1px solid #E9ECED;
+  padding: 0.9em 0.625em 1em 4.375em;
+  background-color: #0071bd!important;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.messages.status .notify-content,
+.messages.status h1 {
+	display: inline-block;
+	color: #ffffff;
+}
+.messages.status h1 {
+    font-size: 18px;
+}
+div.messages.status:before {
+	background-color: #065284!important;
+	background-image: linear-gradient(transparent,transparent),url(/core/misc/message-ok.svg);
+	width: 3em;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-position: center .9em;
+	background-repeat: no-repeat;
+	background-size: 32px;
+}
+.messages.status .icon {
+	display: none;
 }
