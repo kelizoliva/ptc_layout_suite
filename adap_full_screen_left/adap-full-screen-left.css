@@ -2351,7 +2351,7 @@ html.admin-bar .layout--adap-full-screen-left main.container {
   overflow: auto;
   height: auto;
   margin: 0 auto !important;
-  padding: 0 !important;
+  padding: 20px !important;
   align-items: baseline;
   justify-content: center;
 }

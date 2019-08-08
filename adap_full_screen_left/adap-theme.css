@@ -40,7 +40,7 @@ h1.page-title {
   background-color: #0071bd!important;
   border: none;
   border-radius: 3px;
-  color: #ffffff;
+  color: #ffffff!important;
 }
 .messages.status .notify-content,
 .messages.status h1 {
