@@ -1,4 +1,18 @@
 /* ADAP Theme: Some light ADAP theming.  If this ever needs to expand further, we will move this to an actual theme repo */
+@media (min-width: 48em) {
+	.header-logo-wrapper.header-logo-tall {
+		margin: -0.75rem 0.25rem -0.25rem -0.25rem;
+	}
+}
+.l-header a, 
+.header-identity-wrapper,
+.header-site-name-wrapper {
+	width: 100%;
+}
+.header-site-name-wrapper strong {
+	font-size: 1.75em;
+}
+
 h1.page-title {
 	background: #f3f6f7;
 	padding: .1em .5em;
