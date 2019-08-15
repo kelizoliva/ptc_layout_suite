@@ -21,6 +21,7 @@ h1.page-title {
 	margin: 1rem -20px;
 }
 .block-system-user-menu .menu-tree li.leaf, 
+.crm-container .ui-tabs .ui-tabs-nav li.ui-button a,
 .crm-container .crm-button.ui-button, 
 .crm-container .crm-button.ui-button:active, 
 .crm-container .crm-button.ui-button:hover, 
