@@ -20,7 +20,7 @@
 	border-bottom: 1px solid #E9ECED;
 	cursor: pointer;
 }
-.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav > span::after {
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav:not(.Home) > span::after {
     content: '\002B';
     font-size: 20px;
     position: relative;
@@ -54,4 +54,7 @@
 .layout--adap-full-screen-left .l-header #crm-menu-wrapper .current > a {
 	font-weight: 800;
 	background: #E1E4E5;
+}
+.layout--adap-full-screen-left .l-header #crm-menu-wrapper .top-nav.Home a {
+	color: #000000;
 }
