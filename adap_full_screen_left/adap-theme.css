@@ -82,3 +82,6 @@ div.messages.status:before {
 .messages.status .icon {
 	display: none;
 }
+.messages.status a, .crm-container :not(.crm-footer) .messages.status a {
+	color: #adb0b2!important;
+}
