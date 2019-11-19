@@ -2,7 +2,7 @@
 /**
  * @file
  * Template for a full screen layout in which the header menu is vertically on the left of the content area.
- * Supportive themes will have a theme setting for l-big_statement and adap-main class areas to have a full screen background image
+ * Supportive themes will have a theme setting for l-big_statement and ptc-main class areas to have a full screen background image
  *
  * Variables:
  * - $title: The page title, for use in the actual HTML content.
@@ -18,7 +18,7 @@
  *   region of the layout. This layout supports the following divs:
  */
 ?>
-<div class="layout--adap-full-screen-left container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
+<div class="layout--ptc-full-screen-left container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
 
   <main class="l-wrapper container" role="main" aria-label="<?php print t('Main content'); ?>">
     <?php if ($content['header']): ?>
@@ -29,7 +29,7 @@
 
       <a id="main-content"></a>
 
-    <div class="l-content adap-main col-12 col-sm-9 col-lg-10 container" role="region">
+    <div class="l-content ptc-main col-12 col-sm-9 col-lg-10 container" role="region">
       <?php if ($messages): ?>
         <div class="l-messages col-12" role="contentinfo" aria-label="<?php print t('Status messages'); ?>">
           <?php print $messages; ?>
