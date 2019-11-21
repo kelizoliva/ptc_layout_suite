@@ -18,7 +18,7 @@
  *   region of the layout. This layout supports the following divs:
  */
 ?>
-<div class="layout--adap-full-screen-right container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
+<div class="layout--ptc-full-screen-right container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
@@ -26,7 +26,7 @@
   <main class="l-wrapper container" role="main" aria-label="<?php print t('Main content'); ?>">
       <a id="main-content"></a>
 
-    <div class="l-content adap-main col-12 col-sm-9 col-lg-10 container" role="region">
+    <div class="l-content ptc-main col-12 col-sm-9 col-lg-10 container" role="region">
       <?php if ($messages): ?>
         <div class="l-messages col-12" role="status" aria-label="<?php print t('Status messages'); ?>">
           <?php print $messages; ?>
