@@ -11,6 +11,8 @@ These layouts are not for every demographic since they rely on CSS Flexbox -- a 
 
 The layouts contained within this set are:
 
+ptc_full_screen_top -- a full screen content area with the site menu at the top
+
 ptc_full_screen_left -- a full screen content area with the site menu at the left
 
 ptc_full_screen_right -- a full screen content area with the site menu at the right
