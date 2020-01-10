@@ -21,234 +21,235 @@ html[dir="rtl"] {
 html[dir="ltr"] {
   direction: ltr;
 }
+/* Was body:not(.form-single-submit-processed) for some reason. I think it was affecting the UI view of the layout, which is why I did it. Need to come up with a different way to get the UI not borked. Looks like something to do with .responsive-tabs-mobile .expand-dropdown-tabs-control */
 
-body:not(.form-single-submit-processed) .container > .col-12 {
+body .container > .col-12 {
   flex: 0 1 100%;
   max-width: 100%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-11 {
+body .container > .col-11 {
   flex: 0 1 91.6666666667%;
   max-width: 91.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-10 {
+body .container > .col-10 {
   flex: 0 1 83.3333333333%;
   max-width: 83.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-9 {
+body .container > .col-9 {
   flex: 0 1 75%;
   max-width: 75%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-8 {
+body .container > .col-8 {
   flex: 0 1 66.6666666667%;
   max-width: 66.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-7 {
+body .container > .col-7 {
   flex: 0 1 58.3333333333%;
   max-width: 58.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-6 {
+body .container > .col-6 {
   flex: 0 1 50%;
   max-width: 50%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-5 {
+body .container > .col-5 {
   flex: 0 1 41.6666666667%;
   max-width: 41.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-4 {
+body .container > .col-4 {
   flex: 0 1 33.3333333%;
   max-width: 33.3333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-3 {
+body .container > .col-3 {
   flex: 0 1 25%;
   max-width: 25%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-2 {
+body .container > .col-2 {
   flex: 0 1 16.6666666667%;
   max-width: 16.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-1 {
+body .container > .col-1 {
   flex: 0 1 8.3333333333%;
   max-width: 8.3333333333%;
 }
 
 /* 1.B Screen sizes */
 @media (min-width: 480px) {
-  body:not(.form-single-submit-processed) .container > .col-xs-12 {
+  body .container > .col-xs-12 {
     flex: 0 1 100%;
     max-width: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-11 {
+  body .container > .col-xs-11 {
     flex: 0 1 91.6666666667%;
     max-width: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-10 {
+  body .container > .col-xs-10 {
     flex: 0 1 83.3333333333%;
     max-width: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-9 {
+  body .container > .col-xs-9 {
     flex: 0 1 75%;
     max-width: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-8 {
+  body .container > .col-xs-8 {
     flex: 0 1 66.6666666667%;
     max-width: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-7 {
+  body .container > .col-xs-7 {
     flex: 0 1 58.3333333333%;
     max-width: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-6 {
+  body .container > .col-xs-6 {
     flex: 0 1 50%;
     max-width: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-5 {
+  body .container > .col-xs-5 {
     flex: 0 1 41.6666666667%;
     max-width: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-4 {
+  body .container > .col-xs-4 {
     flex: 0 1 33.3333333%;
     max-width: 33.3333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-3 {
+  body .container > .col-xs-3 {
     flex: 0 1 25%;
     max-width: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-2 {
+  body .container > .col-xs-2 {
     flex: 0 1 16.6666666667%;
     max-width: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-1 {
+  body .container > .col-xs-1 {
     flex: 0 1 8.3333333333%;
     max-width: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-12 {
+  body .container > .col-xs-order-12 {
     order: 12;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-11 {
+  body .container > .col-xs-order-11 {
     order: 11;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-10 {
+  body .container > .col-xs-order-10 {
     order: 10;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-9 {
+  body .container > .col-xs-order-9 {
     order: 9;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-8 {
+  body .container > .col-xs-order-8 {
     order: 8;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-7 {
+  body .container > .col-xs-order-7 {
     order: 7;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-6 {
+  body .container > .col-xs-order-6 {
     order: 6;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-5 {
+  body .container > .col-xs-order-5 {
     order: 5;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-4 {
+  body .container > .col-xs-order-4 {
     order: 4;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-3 {
+  body .container > .col-xs-order-3 {
     order: 3;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-2 {
+  body .container > .col-xs-order-2 {
     order: 2;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-order-1 {
+  body .container > .col-xs-order-1 {
     order: 1;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-12 {
+  body .container > .col-xs-push-12 {
     left: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-11 {
+  body .container > .col-xs-push-11 {
     left: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-10 {
+  body .container > .col-xs-push-10 {
     left: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-9 {
+  body .container > .col-xs-push-9 {
     left: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-8 {
+  body .container > .col-xs-push-8 {
     left: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-7 {
+  body .container > .col-xs-push-7 {
     left: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-6 {
+  body .container > .col-xs-push-6 {
     left: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-5 {
+  body .container > .col-xs-push-5 {
     left: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-4 {
+  body .container > .col-xs-push-4 {
     left: 33.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-3 {
+  body .container > .col-xs-push-3 {
     left: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-2 {
+  body .container > .col-xs-push-2 {
     left: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-1 {
+  body .container > .col-xs-push-1 {
     left: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-0 {
+  body .container > .col-xs-push-0 {
     left: 0%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-push-half {
+  body .container > .col-xs-push-half {
     left: 4.1666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-xs-auto {
+  body .container > .col-xs-auto {
     width: auto;
     flex: 0 1 auto;
     max-width: none;
@@ -312,171 +313,171 @@ body:not(.form-single-submit-processed) .container > .col-1 {
 }
 
 @media (min-width: 768px) {
-  body:not(.form-single-submit-processed) .container > .col-sm-12 {
+  body .container > .col-sm-12 {
     flex: 0 1 100%;
     max-width: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-11 {
+  body .container > .col-sm-11 {
     flex: 0 1 91.6666666667%;
     max-width: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-10 {
+  body .container > .col-sm-10 {
     flex: 0 1 83.3333333333%;
     max-width: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-9 {
+  body .container > .col-sm-9 {
     flex: 0 1 75%;
     max-width: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-8 {
+  body .container > .col-sm-8 {
     flex: 0 1 66.6666666667%;
     max-width: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-7 {
+  body .container > .col-sm-7 {
     flex: 0 1 58.3333333333%;
     max-width: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-6 {
+  body .container > .col-sm-6 {
     flex: 0 1 50%;
     max-width: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-5 {
+  body .container > .col-sm-5 {
     flex: 0 1 41.6666666667%;
     max-width: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-4 {
+  body .container > .col-sm-4 {
     flex: 0 1 33.3333333%;
     max-width: 33.3333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-3 {
+  body .container > .col-sm-3 {
     flex: 0 1 25%;
     max-width: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-2 {
+  body .container > .col-sm-2 {
     flex: 0 1 16.6666666667%;
     max-width: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-1 {
+  body .container > .col-sm-1 {
     flex: 0 1 8.3333333333%;
     max-width: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-12 {
+  body .container > .col-sm-order-12 {
     order: 12;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-11 {
+  body .container > .col-sm-order-11 {
     order: 11;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-10 {
+  body .container > .col-sm-order-10 {
     order: 10;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-9 {
+  body .container > .col-sm-order-9 {
     order: 9;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-8 {
+  body .container > .col-sm-order-8 {
     order: 8;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-7 {
+  body .container > .col-sm-order-7 {
     order: 7;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-6 {
+  body .container > .col-sm-order-6 {
     order: 6;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-5 {
+  body .container > .col-sm-order-5 {
     order: 5;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-4 {
+  body .container > .col-sm-order-4 {
     order: 4;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-3 {
+  body .container > .col-sm-order-3 {
     order: 3;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-2 {
+  body .container > .col-sm-order-2 {
     order: 2;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-order-1 {
+  body .container > .col-sm-order-1 {
     order: 1;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-12 {
+  body .container > .col-sm-push-12 {
     left: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-11 {
+  body .container > .col-sm-push-11 {
     left: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-10 {
+  body .container > .col-sm-push-10 {
     left: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-9 {
+  body .container > .col-sm-push-9 {
     left: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-8 {
+  body .container > .col-sm-push-8 {
     left: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-7 {
+  body .container > .col-sm-push-7 {
     left: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-6 {
+  body .container > .col-sm-push-6 {
     left: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-5 {
+  body .container > .col-sm-push-5 {
     left: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-4 {
+  body .container > .col-sm-push-4 {
     left: 33.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-3 {
+  body .container > .col-sm-push-3 {
     left: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-2 {
+  body .container > .col-sm-push-2 {
     left: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-1 {
+  body .container > .col-sm-push-1 {
     left: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-0 {
+  body .container > .col-sm-push-0 {
     left: 0%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-push-half {
+  body .container > .col-sm-push-half {
     left: 4.1666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-sm-auto {
+  body .container > .col-sm-auto {
     width: auto;
     flex: 0 1 auto;
     max-width: none;
@@ -540,171 +541,171 @@ body:not(.form-single-submit-processed) .container > .col-1 {
 }
 
 @media (min-width: 992px) {
-  body:not(.form-single-submit-processed) .container > .col-md-12 {
+  body .container > .col-md-12 {
     flex: 0 1 100%;
     max-width: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-11 {
+  body .container > .col-md-11 {
     flex: 0 1 91.6666666667%;
     max-width: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-10 {
+  body .container > .col-md-10 {
     flex: 0 1 83.3333333333%;
     max-width: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-9 {
+  body .container > .col-md-9 {
     flex: 0 1 75%;
     max-width: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-8 {
+  body .container > .col-md-8 {
     flex: 0 1 66.6666666667%;
     max-width: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-7 {
+  body .container > .col-md-7 {
     flex: 0 1 58.3333333333%;
     max-width: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-6 {
+  body .container > .col-md-6 {
     flex: 0 1 50%;
     max-width: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-5 {
+  body .container > .col-md-5 {
     flex: 0 1 41.6666666667%;
     max-width: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-4 {
+  body .container > .col-md-4 {
     flex: 0 1 33.3333333%;
     max-width: 33.3333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-3 {
+  body .container > .col-md-3 {
     flex: 0 1 25%;
     max-width: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-2 {
+  body .container > .col-md-2 {
     flex: 0 1 16.6666666667%;
     max-width: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-1 {
+  body .container > .col-md-1 {
     flex: 0 1 8.3333333333%;
     max-width: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-12 {
+  body .container > .col-md-order-12 {
     order: 12;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-11 {
+  body .container > .col-md-order-11 {
     order: 11;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-10 {
+  body .container > .col-md-order-10 {
     order: 10;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-9 {
+  body .container > .col-md-order-9 {
     order: 9;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-8 {
+  body .container > .col-md-order-8 {
     order: 8;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-7 {
+  body .container > .col-md-order-7 {
     order: 7;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-6 {
+  body .container > .col-md-order-6 {
     order: 6;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-5 {
+  body .container > .col-md-order-5 {
     order: 5;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-4 {
+  body .container > .col-md-order-4 {
     order: 4;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-3 {
+  body .container > .col-md-order-3 {
     order: 3;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-2 {
+  body .container > .col-md-order-2 {
     order: 2;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-order-1 {
+  body .container > .col-md-order-1 {
     order: 1;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-12 {
+  body .container > .col-md-push-12 {
     left: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-11 {
+  body .container > .col-md-push-11 {
     left: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-10 {
+  body .container > .col-md-push-10 {
     left: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-9 {
+  body .container > .col-md-push-9 {
     left: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-8 {
+  body .container > .col-md-push-8 {
     left: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-7 {
+  body .container > .col-md-push-7 {
     left: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-6 {
+  body .container > .col-md-push-6 {
     left: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-5 {
+  body .container > .col-md-push-5 {
     left: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-4 {
+  body .container > .col-md-push-4 {
     left: 33.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-3 {
+  body .container > .col-md-push-3 {
     left: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-2 {
+  body .container > .col-md-push-2 {
     left: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-1 {
+  body .container > .col-md-push-1 {
     left: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-0 {
+  body .container > .col-md-push-0 {
     left: 0%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-push-half {
+  body .container > .col-md-push-half {
     left: 4.1666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-md-auto {
+  body .container > .col-md-auto {
     width: auto;
     flex: 0 1 auto;
     max-width: none;
@@ -768,171 +769,171 @@ body:not(.form-single-submit-processed) .container > .col-1 {
 }
 
 @media (min-width: 1200px) {
-  body:not(.form-single-submit-processed) .container > .col-lg-12 {
+  body .container > .col-lg-12 {
     flex: 0 1 100%;
     max-width: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-11 {
+  body .container > .col-lg-11 {
     flex: 0 1 91.6666666667%;
     max-width: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-10 {
+  body .container > .col-lg-10 {
     flex: 0 1 83.3333333333%;
     max-width: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-9 {
+  body .container > .col-lg-9 {
     flex: 0 1 75%;
     max-width: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-8 {
+  body .container > .col-lg-8 {
     flex: 0 1 66.6666666667%;
     max-width: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-7 {
+  body .container > .col-lg-7 {
     flex: 0 1 58.3333333333%;
     max-width: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-6 {
+  body .container > .col-lg-6 {
     flex: 0 1 50%;
     max-width: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-5 {
+  body .container > .col-lg-5 {
     flex: 0 1 41.6666666667%;
     max-width: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-4 {
+  body .container > .col-lg-4 {
     flex: 0 1 33.3333333%;
     max-width: 33.3333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-3 {
+  body .container > .col-lg-3 {
     flex: 0 1 25%;
     max-width: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-2 {
+  body .container > .col-lg-2 {
     flex: 0 1 16.6666666667%;
     max-width: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-1 {
+  body .container > .col-lg-1 {
     flex: 0 1 8.3333333333%;
     max-width: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-12 {
+  body .container > .col-lg-order-12 {
     order: 12;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-11 {
+  body .container > .col-lg-order-11 {
     order: 11;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-10 {
+  body .container > .col-lg-order-10 {
     order: 10;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-9 {
+  body .container > .col-lg-order-9 {
     order: 9;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-8 {
+  body .container > .col-lg-order-8 {
     order: 8;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-7 {
+  body .container > .col-lg-order-7 {
     order: 7;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-6 {
+  body .container > .col-lg-order-6 {
     order: 6;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-5 {
+  body .container > .col-lg-order-5 {
     order: 5;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-4 {
+  body .container > .col-lg-order-4 {
     order: 4;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-3 {
+  body .container > .col-lg-order-3 {
     order: 3;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-2 {
+  body .container > .col-lg-order-2 {
     order: 2;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-order-1 {
+  body .container > .col-lg-order-1 {
     order: 1;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-12 {
+  body .container > .col-lg-push-12 {
     left: 100%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-11 {
+  body .container > .col-lg-push-11 {
     left: 91.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-10 {
+  body .container > .col-lg-push-10 {
     left: 83.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-9 {
+  body .container > .col-lg-push-9 {
     left: 75%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-8 {
+  body .container > .col-lg-push-8 {
     left: 66.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-7 {
+  body .container > .col-lg-push-7 {
     left: 58.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-6 {
+  body .container > .col-lg-push-6 {
     left: 50%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-5 {
+  body .container > .col-lg-push-5 {
     left: 41.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-4 {
+  body .container > .col-lg-push-4 {
     left: 33.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-3 {
+  body .container > .col-lg-push-3 {
     left: 25%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-2 {
+  body .container > .col-lg-push-2 {
     left: 16.6666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-1 {
+  body .container > .col-lg-push-1 {
     left: 8.3333333333%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-0 {
+  body .container > .col-lg-push-0 {
     left: 0%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-push-half {
+  body .container > .col-lg-push-half {
     left: 4.1666666667%;
   }
 
-  body:not(.form-single-submit-processed) .container > .col-lg-auto {
+  body .container > .col-lg-auto {
     width: auto;
     flex: 0 1 auto;
     max-width: none;
@@ -1789,7 +1790,7 @@ body:not(.form-single-submit-processed) .container > .col-1 {
   max-width: none;
 }
 
-body:not(.form-single-submit-processed) .container {
+body .container {
   width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2158,133 +2159,133 @@ body:not(.form-single-submit-processed) .container {
   padding: 8px;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-12 {
+body .container > .col-push-12 {
   left: 100%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-11 {
+body .container > .col-push-11 {
   left: 91.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-10 {
+body .container > .col-push-10 {
   left: 83.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-9 {
+body .container > .col-push-9 {
   left: 75%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-8 {
+body .container > .col-push-8 {
   left: 66.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-7 {
+body .container > .col-push-7 {
   left: 58.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-6 {
+body .container > .col-push-6 {
   left: 50%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-5 {
+body .container > .col-push-5 {
   left: 41.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-4 {
+body .container > .col-push-4 {
   left: 33.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-3 {
+body .container > .col-push-3 {
   left: 25%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-2 {
+body .container > .col-push-2 {
   left: 16.6666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-1 {
+body .container > .col-push-1 {
   left: 8.3333333333%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-0 {
+body .container > .col-push-0 {
   left: 0%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-push-half {
+body .container > .col-push-half {
   left: 4.1666666667%;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-12 {
+body .container > .col-order-12 {
   order: 12;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-11 {
+body .container > .col-order-11 {
   order: 11;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-10 {
+body .container > .col-order-10 {
   order: 10;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-9 {
+body .container > .col-order-9 {
   order: 9;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-8 {
+body .container > .col-order-8 {
   order: 8;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-7 {
+body .container > .col-order-7 {
   order: 7;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-6 {
+body .container > .col-order-6 {
   order: 6;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-5 {
+body .container > .col-order-5 {
   order: 5;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-4 {
+body .container > .col-order-4 {
   order: 4;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-3 {
+body .container > .col-order-3 {
   order: 3;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-2 {
+body .container > .col-order-2 {
   order: 2;
 }
 
-body:not(.form-single-submit-processed) .container > .col-order-1 {
+body .container > .col-order-1 {
   order: 1;
 }
 
 /* Clearfix for all regions. */
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-header,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-secondary,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-top,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-bottom,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-calltoaction,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-footer {
+body .layout--ptc-full-screen-top.l-header,
+body .layout--ptc-full-screen-topmain.container,
+body .layout--ptc-full-screen-top.l-statement,
+body .layout--ptc-full-screen-top.l-secondary,
+body .layout--ptc-full-screen-top.l-top,
+body .layout--ptc-full-screen-top.l-bottom,
+body .layout--ptc-full-screen-top.l-calltoaction,
+body .layout--ptc-full-screen-top.l-footer {
   display: table;
   clear: both;
   content: '';
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-header,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-messages,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-secondary,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-top,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-bottom,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-calltoaction,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-footer {
+body .layout--ptc-full-screen-top.l-header,
+body .layout--ptc-full-screen-top.l-messages,
+body .layout--ptc-full-screen-topmain.container,
+body .layout--ptc-full-screen-top.l-statement,
+body .layout--ptc-full-screen-top.l-secondary,
+body .layout--ptc-full-screen-top.l-top,
+body .layout--ptc-full-screen-top.l-bottom,
+body .layout--ptc-full-screen-top.l-calltoaction,
+body .layout--ptc-full-screen-top.l-footer {
   clear: both;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2293,7 +2294,7 @@ body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-footer {
   margin-left: auto;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.layout {
+body .layout--ptc-full-screen-top.layout {
   max-width: 100% !important;
   width: 100% !important;
   height: 100% !important;
@@ -2301,27 +2302,27 @@ body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.layout {
   padding: 0 !important;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.logo img {
+body .layout--ptc-full-screen-top.logo img {
   max-width: 100%;
   max-height: 100%;
   height: 38px;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.block-system-header .logo {
+body .layout--ptc-full-screen-top.block-system-header .logo {
   padding-top: 5px;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-secondary,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-top,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-bottom,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-calltoaction,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-footer {
+body .layout--ptc-full-screen-top.l-statement,
+body .layout--ptc-full-screen-top.l-secondary,
+body .layout--ptc-full-screen-top.l-top,
+body .layout--ptc-full-screen-topmain.container,
+body .layout--ptc-full-screen-top.l-bottom,
+body .layout--ptc-full-screen-top.l-calltoaction,
+body .layout--ptc-full-screen-top.l-footer {
   text-align: left;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container, body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement {
+body .layout--ptc-full-screen-topmain.container, body .layout--ptc-full-screen-top.l-statement {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -2335,31 +2336,31 @@ body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.contain
   overflow: auto;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container {
+body .layout--ptc-full-screen-topmain.container {
     align-items: flex-start;
 }
 
-html.admin-bar body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container {
+html.admin-bar body .layout--ptc-full-screen-topmain.container {
   height: calc(100vh - 30px) !important;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-secondary,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-top,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-bottom,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-calltoaction,
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-footer {
+body .layout--ptc-full-screen-top.l-statement,
+body .layout--ptc-full-screen-top.l-secondary,
+body .layout--ptc-full-screen-top.l-top,
+body .layout--ptc-full-screen-top.l-bottom,
+body .layout--ptc-full-screen-top.l-calltoaction,
+body .layout--ptc-full-screen-top.l-footer {
   padding: 30px;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.header-menu li {
+body .layout--ptc-full-screen-top.header-menu li {
   display: block;
   position: relative;
   float: left;
   margin-right: 10px;
 }
 
-body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-header {
+body .layout--ptc-full-screen-top.l-header {
   align-self: flex-start;
   width: 100% !important;
   padding-top: 5px !important;
@@ -2368,7 +2369,7 @@ body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-header {
 }
 
 @media (max-width: 600px) {
-  body:not(.form-single-submit-processed) .layout--ptc-full-screen-topmain.container, body:not(.form-single-submit-processed) .layout--ptc-full-screen-top.l-statement {
+  body .layout--ptc-full-screen-topmain.container, body .layout--ptc-full-screen-top.l-statement {
     display: block;
     height: auto !important;
   }

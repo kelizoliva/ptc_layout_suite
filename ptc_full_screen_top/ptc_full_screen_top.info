@@ -7,9 +7,9 @@ backdrop = 1.x
 ; file = ptc_full_screen_top.php
 
 ; Specify regions for this layout.
-regions[content] = Content
 regions[header] = Header
 regions[top] = Top
+regions[content] = Content
 regions[statement1] = Big Statement 1
 regions[secondary1] = Secondary Content 1
 regions[statement2] = Big Statement 2
