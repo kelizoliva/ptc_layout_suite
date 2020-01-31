@@ -28,7 +28,7 @@
       <a id="main-content"></a>
 
     <?php if ($content['header']): ?>
-    <header class="l-header col-12" role="banner" aria-label="<?php print t('Site header'); ?>">
+    <header class="l-header col-12 header-scrolled" role="banner" id="l-header" aria-label="<?php print t('Site header'); ?>">
       <?php print $content['header']; ?>
     </header>
     <?php endif; ?>
@@ -40,7 +40,7 @@
     <?php endif; ?>
     
     <?php if ($content['statement1']): ?>
-    <div class="l-statement l-statement1 col-12 container gutters section justify-center" role="region">
+    <div class="l-statement l-statement1 col-12 container gutters section justify-center" id="l-statement" role="region">
         <?php print $content['statement1']; ?>
     </div>
     <?php endif; ?>
