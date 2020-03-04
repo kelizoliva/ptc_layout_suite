@@ -74,12 +74,12 @@
       </div>
       <?php endif; ?>
       <?php print $action_links; ?>
-      <?php print $content['content']; ?>
       <?php if ($tabs): ?>
         <nav class="tabs col-10 align-center column" role="tablist" aria-label="<?php print t('Admin Content Navigation Tabs'); ?>">
           <?php print $tabs; ?>
         </nav>
       <?php endif; ?>
+      <?php print $content['content']; ?>
     </div>
   
     <?php if ($content['statement2']): ?>
