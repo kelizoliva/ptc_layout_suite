@@ -2297,6 +2297,7 @@ html[dir='ltr'] {
   margin-right: auto;
   margin-left: auto;
   background: #f3f6f7;
+  margin-bottom: 0;
 }
 
 .layout--ptc-full-screen-left .l-header .block-system-user-menu {
@@ -2336,6 +2337,9 @@ html[dir='ltr'] {
 
 html.admin-bar .layout--ptc-full-screen-left main.container {
   height: calc(100vh - 30px) !important;
+}
+html.admin-bar #layout-edit .layout--ptc-full-screen-left main.container {
+	height: auto!important;
 }
 
 .layout--ptc-full-screen-left .l-header .header-menu li {
