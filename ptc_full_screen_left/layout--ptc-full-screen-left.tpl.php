@@ -19,17 +19,21 @@
  */
 ?>
 <div class="layout--ptc-full-screen-left container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
-
-  <main class="l-wrapper container" role="main" aria-label="<?php print t('Main content'); ?>">
+  <?php if ($content['navigation']): ?>
+  <div class="l-navigation col-12">
+	  <?php print $content['navigation']; ?>
+  </div>
+  <?php endif; ?>
+  <main class="l-wrapper container gutters" role="main" aria-label="<?php print t('Main content'); ?>">
     <?php if ($content['header']): ?>
-      <header class="l-header col-12 col-sm-3 col-lg-2" role="banner" aria-label="<?php print t('Site header'); ?>">
+      <header class="l-header col-12 col-md-3" role="banner" aria-label="<?php print t('Site header'); ?>">
       <?php print $content['header']; ?>
       </header>
     <?php endif; ?>
 
       <a id="main-content"></a>
 
-    <div class="l-content ptc-main col-12 col-sm-9 col-lg-10 container" role="region">
+    <div class="l-content ptc-main col-12 col-md-9 container gutters" role="region">
       <?php if ($messages): ?>
         <div class="l-messages col-12" role="contentinfo" aria-label="<?php print t('Status messages'); ?>">
           <?php print $messages; ?>

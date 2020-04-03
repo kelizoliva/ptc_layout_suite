@@ -8,6 +8,7 @@ backdrop = 1.x
 
 ; Specify regions for this layout.
 regions[content] = Content
+regions[navigation] = Navigation
 regions[header] = Header
 regions[footer]  = Footer
 
