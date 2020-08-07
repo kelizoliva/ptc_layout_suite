@@ -1,22 +1,17 @@
-name = PTC Full Screen Top
+name = PTC Top Nav Right Sidebar
 version = BACKDROP_VERSION
 type = layout
 backdrop = 1.x
 
 ; Include file for special preprocessing of this layout's variables.
-; file = ptc_full_screen_top.php
+; file = ptc_full_screen_top_right.php
 
 ; Specify regions for this layout.
 regions[header] = Header
 regions[top] = Top
+regions[right] = Right Sidebar
 regions[content] = Content
-regions[statement1] = Big Statement 1
-regions[secondary1] = Secondary Content 1
-regions[statement2] = Big Statement 2
-regions[secondary2] = Secondary Content 2
-regions[statement3] = Big Statement 3
 regions[bottom] = Bottom
-regions[calltoaction] = Call To Action
 regions[footer]  = Footer
 
 ; The default region automatically receives the "Main Content" block if needed.

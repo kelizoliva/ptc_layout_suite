@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for a full screen layout with the header menu at the top of the screen.
+ * Template for a full screen layout with the header menu at the top of the screen, sidebar on the right of the screen.
  * Supportive themes will have a theme setting for l-big_statement and ptc-main class areas to have a full screen background image
  *
  * Variables:
@@ -23,7 +23,7 @@
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
-
+  
   <main class="l-wrapper container ptc-main" role="main" aria-label="<?php print t('Main content'); ?>">
       <a id="main-content"></a>
 
@@ -34,37 +34,24 @@
     <?php endif; ?>
     
     <?php if ($content['top']): ?>
-    <div class="l-top col-12 container gutters" role="region">
+    <div class="l-top col-12 container" role="region">
       <?php print $content['top']; ?>
     </div>
     <?php endif; ?>
     
-    <?php if ($content['statement1']): ?>
-    <div class="l-statement l-statement1 col-12 container gutters section justify-center" id="l-statement" role="region">
-        <?php print $content['statement1']; ?>
-    </div>
-    <?php endif; ?>
-
-    <?php if ($content['secondary1']): ?>
-    <div class="l-secondary l-secondary1 col-12 container secondary gutters" role="region">
-        <?php print $content['secondary1']; ?>
-    </div>
-    <?php endif; ?>
-
-    
-    <?php if ($content['calltoaction']): ?>
-    <div class="l-calltoaction col-12 container gutters section" role="secondary" aria-label="<?php print t('Action to take'); ?>">
-       <?php print $content['calltoaction']; ?>
-    </div>
+    <?php if ($content['right']): ?>
+      <div class="l-right container col-12 col-md-3" role="banner" aria-label="<?php print t('Right sidebar'); ?>">
+      <?php print $content['right']; ?>
+      </div>
     <?php endif; ?>
     
-    <div class="l-content container gutters col-12 section">
+    <div class="l-content container col-12 col-md-9 section">
       <?php print render($title_prefix); ?>
-      <div class="header col-12 container gutters">
+      <div class="header col-12 container">
         <?php if ($title): ?>
-          <h1 class="page-title col-10 align-center">
+          <h2 class="page-title col-9 align-center">
             <?php print $title; ?>
-          </h1>
+          </h2>
         <?php endif; ?>
         <?php print render($title_suffix); ?>
       </div>
@@ -81,32 +68,13 @@
       <?php endif; ?>
       <?php print $content['content']; ?>
     </div>
-  
-    <?php if ($content['statement2']): ?>
-      <div class="l-statement l-statement2 col-12 container section" role="region">
-        <?php print $content['statement2']; ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if ($content['secondary2']): ?>
-      <div class="l-secondary l-secondary2 col-12 container gutters secondary" role="region">
-        <?php print $content['secondary2']; ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if ($content['statement3']): ?>
-      <div class="l-statement l-statement3 col-12 container gutters section" role="region">
-        <?php print $content['statement3']; ?>
-      </div>
-    <?php endif; ?>
-  
-    <?php if ($content['bottom']): ?>
-    <div class="l-bottom col-12 container section" role="region">
-        <?php print $content['bottom']; ?>
-    </div>
-    <?php endif; ?>
 
   </main>
+  <?php if ($content['bottom']): ?>
+    <div class="l-bottom col-12 container section" role="region">
+      <?php print $content['bottom']; ?>
+    </div>
+  <?php endif; ?>
 
   <?php if ($content['footer']): ?>
     <footer class="l-footer col-12 container gutters secondary" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
