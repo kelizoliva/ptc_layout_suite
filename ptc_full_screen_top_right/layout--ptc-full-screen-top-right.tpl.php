@@ -18,7 +18,7 @@
  *   region of the layout. This layout supports the following divs:
  */
 ?>
-<div class="layout--ptc-full-screen-top container js <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
+<div class="layout--ptc-full-screen-top-right container js <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
   <div class="loader"></div>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
