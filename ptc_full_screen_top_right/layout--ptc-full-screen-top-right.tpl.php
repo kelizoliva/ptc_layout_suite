@@ -39,17 +39,11 @@
     </div>
     <?php endif; ?>
     
-    <?php if ($content['right']): ?>
-      <div class="l-right container col-12 col-md-3" role="banner" aria-label="<?php print t('Right sidebar'); ?>">
-      <?php print $content['right']; ?>
-      </div>
-    <?php endif; ?>
-    
-    <div class="l-content container col-12 col-md-9 section">
+    <div class="l-content container col-12 col-sm-9 section">
       <?php print render($title_prefix); ?>
       <div class="header col-12 container">
         <?php if ($title): ?>
-          <h2 class="page-title col-9 align-center">
+          <h2 class="page-title col-10 align-center">
             <?php print $title; ?>
           </h2>
         <?php endif; ?>
@@ -68,6 +62,12 @@
       <?php endif; ?>
       <?php print $content['content']; ?>
     </div>
+    
+    <?php if ($content['right']): ?>
+      <div class="l-right container col-12 col-sm-3" role="banner" aria-label="<?php print t('Right sidebar'); ?>">
+      <?php print $content['right']; ?>
+      </div>
+    <?php endif; ?>
 
   </main>
   <?php if ($content['bottom']): ?>
