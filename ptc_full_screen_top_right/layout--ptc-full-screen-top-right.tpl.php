@@ -29,6 +29,7 @@
 
     <?php if ($content['header']): ?>
     <header class="l-header col-12 header-scrolled" role="banner" id="l-header" aria-label="<?php print t('Site header'); ?>">
+      <div class="nav-placeholder"></div>
       <?php print $content['header']; ?>
     </header>
     <?php endif; ?>
