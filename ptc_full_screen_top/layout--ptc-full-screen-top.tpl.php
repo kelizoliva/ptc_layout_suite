@@ -20,9 +20,6 @@
 ?>
 <div class="layout--ptc-full-screen-top container js <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
   <div class="loader"></div>
-  <div id="skip-link">
-    <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
-  </div>
 
   <main class="l-wrapper container ptc-main" role="main" aria-label="<?php print t('Main content'); ?>">
       <a id="main-content"></a>
