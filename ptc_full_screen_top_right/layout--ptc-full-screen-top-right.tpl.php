@@ -36,37 +36,37 @@
       <?php print $content['top']; ?>
     </div>
     <?php endif; ?>
-    
-    <div class="l-content container col-12 col-sm-9 section">
-      <?php print render($title_prefix); ?>
-      <div class="header col-12 container">
-        <?php if ($title): ?>
-          <h2 class="page-title col-10 align-center">
-            <?php print $title; ?>
-          </h2>
+    <div class="ui-wrap container col-12">
+      <div class="l-content container col-12 col-sm-9 section">
+        <?php print render($title_prefix); ?>
+        <div class="header col-12 container">
+          <?php if ($title): ?>
+            <h2 class="page-title col-10 align-center">
+              <?php print $title; ?>
+            </h2>
+          <?php endif; ?>
+          <?php print render($title_suffix); ?>
+        </div>
+        <?php if ($messages): ?>
+        <div class="l-messages col-10 align-center" role="status" aria-label="<?php print t('Status messages'); ?>">
+          <?php print $messages; ?>
+        </div>
         <?php endif; ?>
-        <?php print render($title_suffix); ?>
+        <?php print $action_links; ?>
+        <?php if ($tabs): ?>
+          <nav class="tabs col-10 align-center column" role="tablist" aria-label="<?php print t('Admin Content Navigation Tabs'); ?>">
+            <?php print $tabs; ?>
+          </nav>
+        <?php endif; ?>
+        <?php print $content['content']; ?>
       </div>
-      <?php if ($messages): ?>
-      <div class="l-messages col-10 align-center" role="status" aria-label="<?php print t('Status messages'); ?>">
-        <?php print $messages; ?>
-      </div>
+      
+      <?php if ($content['right']): ?>
+        <div class="l-right container col-12 col-sm-3" role="banner" aria-label="<?php print t('Right sidebar'); ?>">
+        <?php print $content['right']; ?>
+        </div>
       <?php endif; ?>
-      <?php print $action_links; ?>
-      <?php if ($tabs): ?>
-        <nav class="tabs col-10 align-center column" role="tablist" aria-label="<?php print t('Admin Content Navigation Tabs'); ?>">
-          <?php print $tabs; ?>
-        </nav>
-      <?php endif; ?>
-      <?php print $content['content']; ?>
     </div>
-    
-    <?php if ($content['right']): ?>
-      <div class="l-right container col-12 col-sm-3" role="banner" aria-label="<?php print t('Right sidebar'); ?>">
-      <?php print $content['right']; ?>
-      </div>
-    <?php endif; ?>
-
   </main>
   <?php if ($content['bottom']): ?>
     <div class="l-bottom col-12 container section" role="region">
