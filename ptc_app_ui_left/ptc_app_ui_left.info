@@ -1,0 +1,24 @@
+name = PTC App UI Left
+version = BACKDROP_VERSION
+type = layout
+backdrop = 1.x
+
+; Include file for special preprocessing of this layout's variables.
+; file = ptc_app_ui_left.php
+
+; Specify regions for this layout.
+regions[content] = Content
+regions[navigation] = Navigation
+regions[header] = Header
+regions[footer]  = Footer
+
+; The default region automatically receives the "Main Content" block if needed.
+; Modify this line if you would like to change the default in this layout.
+default region = content
+
+; Default stylesheets
+stylesheets[all][] = ptc-app-ui-left.css
+
+project = ptc_layouts
+version = 1.x-1.1.0
+timestamp = 1464921071
