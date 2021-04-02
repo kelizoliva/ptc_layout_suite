@@ -56,6 +56,13 @@
       
       <?php print $action_links; ?>
       <?php print $content['content']; ?>
+      
+      <?php if ($content['modal']): ?>
+      <div class="modal" aria-label="<?php print t('Add data'); ?>">
+        <div class="toggle"></div>
+        <?php print $content['modal']; ?>
+      </div>
+      <?php endif; ?>
       </div>
       <?php if ($content['footer']): ?>
       <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
