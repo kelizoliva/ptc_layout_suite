@@ -21,12 +21,12 @@
 <div class="layout--ptc-app-ui-left container <?php print implode(' ', $classes); ?>"<?php print backdrop_attributes($attributes); ?>>
   <main class="l-wrapper container" role="main" aria-label="<?php print t('Main content'); ?>">
     <?php if ($content['navigation']): ?>
-    <header class="l-navigation col-2 col-sm-1" role="banner" aria-label="<?php print t('Site header'); ?>">
+    <header class="l-navigation col-2 col-xs-1" role="banner" aria-label="<?php print t('Site header'); ?>">
       <?php print $content['navigation']; ?>
     </header>
     <?php endif; ?>
     
-    <div class="l-content ptc-main col-10 col-sm-11 container" role="region">
+    <div class="l-content ptc-main col-10 col-xs-11 container" role="region">
       <?php if ($content['header']): ?>
       <div class="l-header col-12">
         <?php print $content['header']; ?>
