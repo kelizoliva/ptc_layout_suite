@@ -39,36 +39,36 @@
         </div>
       <?php endif; ?>
 
-      <div class="col-12 container gutters">
-      <div class="col-12">
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page-title">
-          <?php print $title; ?>
-        </h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php if ($tabs): ?>
-        <nav class="tabs small-12 column" role="tablist" aria-label="<?php print t('Admin Content Navigation Tabs'); ?>">
-          <?php print $tabs; ?>
-        </nav>
-      <?php endif; ?>
-      
-      <?php print $action_links; ?>
-      <?php print $content['content']; ?>
-      
-      <?php if ($content['modal']): ?>
-      <div class="modal" aria-label="<?php print t('Add data'); ?>">
-        <div class="toggle"></div>
-        <?php print $content['modal']; ?>
-      </div>
-      <?php endif; ?>
-      </div>
-      <?php if ($content['footer']): ?>
-      <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
-        <?php print $content['footer']; ?>
-      </footer>
-      <?php endif; ?>
+      <div class="l-main col-12 container gutters">
+        <div class="col-12">
+          <?php print render($title_prefix); ?>
+          <?php if ($title): ?>
+            <h1 class="page-title">
+              <?php print $title; ?>
+            </h1>
+          <?php endif; ?>
+          <?php print render($title_suffix); ?>
+          <?php if ($tabs): ?>
+            <nav class="tabs small-12 column" role="tablist" aria-label="<?php print t('Admin Content Navigation Tabs'); ?>">
+              <?php print $tabs; ?>
+            </nav>
+          <?php endif; ?>
+          
+          <?php print $action_links; ?>
+          <?php print $content['content']; ?>
+          
+          <?php if ($content['modal']): ?>
+          <div class="modal" aria-label="<?php print t('Add data'); ?>">
+            <div class="toggle"></div>
+            <?php print $content['modal']; ?>
+          </div>
+          <?php endif; ?>
+        </div>
+        <?php if ($content['footer']): ?>
+        <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">
+          <?php print $content['footer']; ?>
+        </footer>
+        <?php endif; ?>
       </div>
     </div>
   </main>
