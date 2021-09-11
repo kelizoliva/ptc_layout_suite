@@ -1847,6 +1847,9 @@ html[dir='ltr'] {
   justify-content: flex-start;
   align-items: stretch;
 }
+.layout--ptc-app-ui-left .container .container {
+  margin: 0;  
+}
 
 .layout--ptc-app-ui-left .container.full-width,
 .layout--ptc-app-ui-left .container.container-fluid {
