@@ -63,6 +63,9 @@
             <?php print $content['modal']; ?>
           </div>
           <?php endif; ?>
+        <?php if ($content['modal2']): ?>
+            <?php print $content['modal2']; ?>
+        <?php endif; ?>
         </div>
         <?php if ($content['footer']): ?>
         <footer class="l-footer col-12" role="contentinfo" aria-label="<?php print t('Footer navigation'); ?>">

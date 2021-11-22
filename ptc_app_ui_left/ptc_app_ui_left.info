@@ -12,6 +12,7 @@ regions[navigation] = Navigation
 regions[header] = Header
 regions[footer]  = Footer
 regions[modal]  = Modal
+regions[modal2] = Modal 2
 
 ; The default region automatically receives the "Main Content" block if needed.
 ; Modify this line if you would like to change the default in this layout.
